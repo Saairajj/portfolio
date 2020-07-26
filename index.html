@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <link id="theme-style" rel="stylesheet" href="">
+  <title>Sairaj J</title>
+</head>
+<body>
+  <section class="s1">
+    <div class="main-container">
+      <div class="greeting-wrapper">
+        <h1>Hi, I am Sairaj!</h1>
+      </div>
+
+      <div class="intro-wrapper">
+        <div class="nav-wrapper">
+          <div class="dots-wrapper">
+            <div class="browser-dot" id="dot-1"></div>
+            <div class="browser-dot" id="dot-2"></div>
+            <div class="browser-dot" id="dot-3"></div>
+          </div>
+
+          <ul id="navigation">
+            <li><a href="#" >Contact</a></li>
+            <li><a target="_blank" href="resume.pdf" >Resume</a></li>
+          </ul>
+          
+        </div>
+        <div class="left-column">
+          <img id="profile-pic" src="images/me.jpeg">
+          <h5 style="text-align:center; line-height:0" >Personalize Theme</h5>
+
+          <div class="theme-options-wrapper">
+            <div data-mode="light" class="theme-dot" id="light-mode"></div>
+            <div data-mode="blue" class="theme-dot" id="blue-mode"></div>
+            <div data-mode="green" class="theme-dot" id="green-mode"></div>
+            <div data-mode="purple" class="theme-dot" id="purple-mode"></div>
+          </div>
+
+          <p id="settings-note" >Theme settings will be saved for <br> your next visit</p>
+
+        </div>
+        <div class="right-column">
+          <div id="preview-shadow">
+            <div id="preview">
+              <div class="corner" id="top-left"></div>
+              <div class="corner" id="top-right"></div>
+              <h3>I am a developer who'll..</h3>
+              <p>Design and Develop an elegant website for you!</p>
+              <div class="corner" id="bottom-left"></div>
+              <div class="corner" id="bottom-right"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="s2">
+    <div class="main-container">
+
+      <div class="about-wrapper">
+        <div class="about-me">
+            <h4>More about me</h4>
+
+            <p>My major focus is on creating simple and user-friendly websites. </p>
+
+            <p>These websites will be Fast, Responsive and Scalable and I will provide complete support in building and hosting your site.</p>
+           <hr>
+
+            <h4>TOP EXPERTISE</h4>
+
+            <p>JavaScript Developer with Web Design Skills</p>
+
+            <div id="skills">
+              <ul>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Node.js</li>
+                <li>Java</li>
+              </ul>
+
+              <ul>
+                <li>HTML/CSS</li>
+                <li>Heroku</li>
+                <li>MongoDB</li>
+                <li>Express</li>
+              </ul>
+            </div>
+        </div>
+
+        <div class="social-links">
+          <img src="images/inst_ss.jpg" id="social-img">
+          <h4>Find me on LinkedIn and Instagram</h4>
+
+           <p><a target="_blank" href="https://www.linkedin.com/in/sairaj-jadhav-8a407717a/">LinkedIn</a></p>
+           <p><a target="_blank" href="https://www.instagram.com/saairajj/">Instagram</a></p>
+        </div>
+      </div>
+    
+    </div>
+  </section>
+  <section class="s1">
+    <div class="main-container">
+      <h3 style="text-align: center;">My Work</h3>
+      <div class="post-wrapper">
+
+        <div>
+          <div class="post">
+            <img src="images/acp_ss_1.jpg"  class="thumbnail">
+            <div class="post-preview">
+              <h6 class="post-title">Photography Website</h6>
+              <p class="post-intro">Online portfolio of a Photographer</p>
+              <p><a href="#">Read More</a></p>
+            </div>
+          </div>
+        </div>  
+
+        <div>
+        <div class="post">
+            <img src="images/gf_ss_1.jpg"  class="thumbnail">
+            <div class="post-preview">
+              <h6 class="post-title">GitHub Finder</h6>
+              <p class="post-intro">Searches through GitHub profiles and provides their details.</p>
+              <p><a href="#">Read More</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+        <div class="post">
+            <img src="images/wa_ss_1.jpg"  class="thumbnail">
+            <div class="post-preview">
+              <h6 class="post-title">Weather</h6>
+              <p class="post-intro">A weather app build using API gives information on desired city's condition.</p>
+              <p><a href="#">Read More</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="s2">
+    <div class="main-container">
+      <h3 style="text-align: center;">Contact Me</h3>
+
+      <form id="contact-form">
+        <label>Name</label>
+        <input type="text" name="name" class="input-field">
+
+        <label>Subject</label>
+        <input type="text" name="subject" class="input-field">
+
+        <label>Email</label>
+        <input type="text" name="email" class="input-field">
+
+        <label>Message</label>
+        <textarea type="text" name="message" class="input-field"></textarea>
+
+        <input type="submit" id="submit-btn" value="Send">
+      </form>
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+ 
+</body>
+</html>
